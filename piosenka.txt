@@ -8,7 +8,4 @@ refren-2.txt
 
 zwrotka-3.txt
 
-And I'll hide from the world
-Behind a broken frame
-And I'll run forever
-I can't face the shame
+zwrotka-4.txt
