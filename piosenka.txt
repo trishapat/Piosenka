@@ -4,15 +4,9 @@ refren-1.txt
 
 zwrotka-2.txt
 
-She burns like the sun
-And I can't look away
-And she'll burn our horizons
-Make no mistakes
+refren-2.txt
 
-And I'll hide from the world
-Behind a broken frame
-And I'll run forever
-I can't face the shame
+zwrotka-3.txt
 
 And I'll hide from the world
 Behind a broken frame
