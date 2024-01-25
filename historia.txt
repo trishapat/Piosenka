@@ -1,0 +1,395 @@
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p refren.txt
+commit 537fa5c6ecbfd8d9d970f6cdb9bd280a7eb3d10e
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 18:06:02 2024 +0100
+
+    zmiana nazwy pliku refren, zmiana nazwy pliku źródłowego w piosenka.txt, usunięcie pliku refren-2.txt
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..108b645
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,4 @@
++She burns like the sun
++And I can't look away
++And she'll burn our horizons
++Make no mistakes
+\ No newline at end of file
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p zwrotka-1.txt
+commit 6ad96a2c777fe59556835f3db50502afbc6b1cdb
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:35:53 2024 +0100
+
+    przeniesienie zwrotki
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+index e69de29..45c2c88 100644
+--- a/zwrotka-1.txt
++++ b/zwrotka-1.txt
+@@ -0,0 +1,6 @@
++Come waste your millions here
++Secretly she sneers
++Another corporate show
++A guilty conscience grows
++And I'll feel a guilty conscience grow
++And I'll feel a guilty conscience grow
+\ No newline at end of file
+
+commit 84f4569edbf3c9d144380f8b6c2871f59699fba1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:33:45 2024 +0100
+
+    dodanie zwrotek i refrenów
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..e69de29
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p zwrotka-2.txt
+commit 442cee776738d0ae9ea57b27ef2bf49250435e4c
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:41:03 2024 +0100
+
+    przeniesienie refren 2 i zwrotka 3
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+index e69de29..76ecdf0 100644
+--- a/zwrotka-2.txt
++++ b/zwrotka-2.txt
+@@ -0,0 +1,4 @@
++Come let the truth be shared
++No one ever dared to break
++These endless lies
++Secretly she cries
+\ No newline at end of file
+
+commit 84f4569edbf3c9d144380f8b6c2871f59699fba1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:33:45 2024 +0100
+
+    dodanie zwrotek i refrenów
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..e69de29
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p zwrotka-3.txt
+commit 442cee776738d0ae9ea57b27ef2bf49250435e4c
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:41:03 2024 +0100
+
+    przeniesienie refren 2 i zwrotka 3
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+index e69de29..ace7415 100644
+--- a/zwrotka-3.txt
++++ b/zwrotka-3.txt
+@@ -0,0 +1,4 @@
++And I'll hide from the world
++Behind a broken frame
++And I'll run forever
++I can't face the shame
+\ No newline at end of file
+
+commit 84f4569edbf3c9d144380f8b6c2871f59699fba1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:33:45 2024 +0100
+
+    dodanie zwrotek i refrenów
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..e69de29
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p zwrotka-4.txt
+commit 46bf44b22bd562c676c7ab2749fe65a0a43fab63
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:42:37 2024 +0100
+
+    przeniesienie zwrotka 4
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+index e69de29..ace7415 100644
+--- a/zwrotka-4.txt
++++ b/zwrotka-4.txt
+@@ -0,0 +1,4 @@
++And I'll hide from the world
++Behind a broken frame
++And I'll run forever
++I can't face the shame
+\ No newline at end of file
+
+commit 84f4569edbf3c9d144380f8b6c2871f59699fba1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:33:45 2024 +0100
+
+    dodanie zwrotek i refrenów
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..e69de29
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log -p piosenka.txt
+commit 537fa5c6ecbfd8d9d970f6cdb9bd280a7eb3d10e
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 18:06:02 2024 +0100
+
+    zmiana nazwy pliku refren, zmiana nazwy pliku źródłowego w piosenka.txt, usunięcie pliku refren-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 70d5896..a2444a1 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,10 @@
+ zwrotka-1.txt
+
+-refren-1.txt
++refren.txt
+
+ zwrotka-2.txt
+
+-refren-2.txt
++refren.txt
+
+ zwrotka-3.txt
+
+
+commit 46bf44b22bd562c676c7ab2749fe65a0a43fab63
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:42:37 2024 +0100
+
+    przeniesienie zwrotka 4
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e153ad3..70d5896 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,7 +8,4 @@ refren-2.txt
+
+ zwrotka-3.txt
+
+-And I'll hide from the world
+-Behind a broken frame
+-And I'll run forever
+-I can't face the shame
+\ No newline at end of file
++zwrotka-4.txt
+\ No newline at end of file
+
+commit 442cee776738d0ae9ea57b27ef2bf49250435e4c
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:41:03 2024 +0100
+
+    przeniesienie refren 2 i zwrotka 3
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e9fa221..e153ad3 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,15 +4,9 @@ refren-1.txt
+
+ zwrotka-2.txt
+
+-She burns like the sun
+-And I can't look away
+-And she'll burn our horizons
+-Make no mistakes
++refren-2.txt
+
+-And I'll hide from the world
+-Behind a broken frame
+-And I'll run forever
+-I can't face the shame
++zwrotka-3.txt
+
+ And I'll hide from the world
+ Behind a broken frame
+
+commit 795c84cfc635b3c592e64b3b798923ee105437d1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:38:04 2024 +0100
+
+    przeniesienie zwrotki 2 i refrenu 1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 456550c..e9fa221 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,14 +1,8 @@
+ zwrotka-1.txt
+
+-She burns like the sun
+-And I can't look away
+-And she'll burn our horizons
+-Make no mistakes
++refren-1.txt
+
+-Come let the truth be shared
+-No one ever dared to break
+-These endless lies
+-Secretly she cries
++zwrotka-2.txt
+
+ She burns like the sun
+ And I can't look away
+
+commit 6ad96a2c777fe59556835f3db50502afbc6b1cdb
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:35:53 2024 +0100
+
+    przeniesienie zwrotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 5981e9f..456550c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,4 @@
+-Come waste your millions here
+-Secretly she sneers
+-Another corporate show
+-A guilty conscience grows
+-And I'll feel a guilty conscience grow
+-And I'll feel a guilty conscience grow
++zwrotka-1.txt
+
+ She burns like the sun
+ And I can't look away
+
+commit 4a3dc92ccef9ffa7e9ea74a0bb59c0d396ee7b77
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:21:02 2024 +0100
+
+    dodanie tekstu
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e69de29..5981e9f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -0,0 +1,31 @@
++Come waste your millions here
++Secretly she sneers
++Another corporate show
++A guilty conscience grows
++And I'll feel a guilty conscience grow
++And I'll feel a guilty conscience grow
++
++She burns like the sun
++And I can't look away
++And she'll burn our horizons
++Make no mistakes
++
++Come let the truth be shared
++No one ever dared to break
++These endless lies
++Secretly she cries
++
++She burns like the sun
++And I can't look away
++And she'll burn our horizons
++Make no mistakes
++
++And I'll hide from the world
++Behind a broken frame
++And I'll run forever
++I can't face the shame
++
++And I'll hide from the world
++Behind a broken frame
++And I'll run forever
++I can't face the shame
+\ No newline at end of file
+
+commit 947dcfb5720343045f52b307c1bd3600f4e60297
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:10:24 2024 +0100
+
+    dodaje piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..e69de29
+
+patry@LAPTOP-L30CDH3V MINGW64 /c/users/patry/desktop/pyt (master)
+$ git log
+commit 5a632f883e8e370826e8ad619261f2dafb69b429 (HEAD -> master)
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 18:07:08 2024 +0100
+
+    zmiana nazwy
+
+commit 537fa5c6ecbfd8d9d970f6cdb9bd280a7eb3d10e
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 18:06:02 2024 +0100
+
+    zmiana nazwy pliku refren, zmiana nazwy pliku źródłowego w piosenka.txt, usunięcie pliku refren-2.txt
+
+commit 082ebf7e1a2ffc2183ea749efafb55659e7660a2
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:57:57 2024 +0100
+
+    Revert "usunięcie linii z refrenu"
+
+    This reverts commit b60d4e56787a4acc99eb3f6889e990a360665648.
+
+commit b60d4e56787a4acc99eb3f6889e990a360665648
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:44:13 2024 +0100
+
+    usunięcie linii z refrenu
+
+commit 46bf44b22bd562c676c7ab2749fe65a0a43fab63
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:42:37 2024 +0100
+
+    przeniesienie zwrotka 4
+
+commit 442cee776738d0ae9ea57b27ef2bf49250435e4c
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:41:03 2024 +0100
+
+    przeniesienie refren 2 i zwrotka 3
+
+commit 795c84cfc635b3c592e64b3b798923ee105437d1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:38:04 2024 +0100
+
+    przeniesienie zwrotki 2 i refrenu 1
+
+commit 6ad96a2c777fe59556835f3db50502afbc6b1cdb
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:35:53 2024 +0100
+
+    przeniesienie zwrotki
+
+commit 84f4569edbf3c9d144380f8b6c2871f59699fba1
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:33:45 2024 +0100
+
+    dodanie zwrotek i refrenów
+
+commit 4a3dc92ccef9ffa7e9ea74a0bb59c0d396ee7b77
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:21:02 2024 +0100
+
+    dodanie tekstu
+
+commit 947dcfb5720343045f52b307c1bd3600f4e60297
+Author: Patrycja <patrycja121820@gmail.com>
+Date:   Tue Jan 23 17:10:24 2024 +0100
+
+    dodaje piosenka.txt
+(END)
+
+
+
+
+
